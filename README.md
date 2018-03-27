@@ -8,15 +8,15 @@ Steps para rodar o código local na máquina:
 https://www.arduino.cc/en/Main/Software
 
 2. Pegar código do GitHub:
-https://github.com/nathalials/exemplo02-BMP180/blob/master/exemplo02-BMP180.ino
+https://github.com/nathalials/nodemcu-iot/blob/master/NodeMCUIoT.ino
 
-    2.1.  Alterar as credenciais do wifi (linha 11 e 12)
+    2.1.  Alterar as credenciais do wifi (linha 26 e 27)
 
-    2.2.  Alterar a org (linha 18):
+    2.2.  Alterar a org (linha 33):
         
     Obs.: Sua org pode ser encontrada no início da URL https://**iv9si4**.internetofthings.ibmcloud.com/
 
-    2.3. Configurar device type e device ID, conforme o que foi colocado na plataforma.
+    2.3. Configurar device type, device ID e token: conforme o que foi colocado na plataforma (linha 34, 35 e 36).
 
 
 3. Instalar board ESP8266WiFi:
