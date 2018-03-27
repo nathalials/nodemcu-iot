@@ -10,13 +10,13 @@ https://www.arduino.cc/en/Main/Software
 2. Pegar código do GitHub:
 https://github.com/nathalials/nodemcu-iot/blob/master/NodeMCUIoT.ino
 
-    2.1.  Alterar as credenciais do wifi (linha 26 e 27)
+    2.1.  Alterar as credenciais do wifi (linha 16 e 17)
 
-    2.2.  Alterar a org (linha 33):
+    2.2.  Alterar a org (linha 20):
         
     Obs.: Sua org pode ser encontrada no início da URL https://**iv9si4**.internetofthings.ibmcloud.com/
 
-    2.3. Configurar device type, device ID e token: conforme o que foi colocado na plataforma (linha 34, 35 e 36).
+    2.3. Configurar device type, device ID e token: conforme o que foi colocado na plataforma (linha 21, 22 e 23).
 
 
 3. Instalar board ESP8266WiFi:
